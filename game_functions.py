@@ -25,7 +25,7 @@ def draw_pause_screen(screen, ai_settings, my_text):
     screen.fill(ai_settings.bg_color)
     pygame.draw.rect(screen, ai_settings.bg_color, (125, 225, 250, 50))
     text_surface = my_text.font_pause.render(my_text.t_pause, True, (255, 255, 255))
-    screen.blit(text_surface, (126, 225))
+    screen.blit(text_surface, (75, 225))
     pygame.display.update()
 
 
